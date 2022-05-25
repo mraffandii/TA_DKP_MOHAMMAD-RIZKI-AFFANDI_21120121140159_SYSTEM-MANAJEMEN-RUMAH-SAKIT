@@ -138,7 +138,7 @@ public class main extends JFrame{
     }
 
     private void insertFirst(Pasien pasien){
-        listPasien.sakit(pasien);                                //
+        listPasien.sakit(pasien);                                
     }
 
     private void refreshDataModel(){
@@ -155,7 +155,7 @@ public class main extends JFrame{
         jListPasien.setModel(defaultListModel);
     }
 
-    private void clearForm(){                                       //fungsi
+    private void clearForm(){                                    
         textFieldNama.setText("");
         textFieldPenyakit.setText("");
         textFieldUmur.setText("");
